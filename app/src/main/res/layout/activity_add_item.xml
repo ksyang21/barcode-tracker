@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_blue"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_add_item"
+        tools:context=".AddItemActivity">
+
+    <TextView
+            android:id="@+id/add_item_name"
+            android:text="@string/item_name"
+            android:textColor="@color/white"
+            android:layout_marginTop="150dp" android:layout_marginStart="100dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/add_item_nameInput"
+            android:background="@drawable/edit_bg"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:layout_below="@id/add_item_name"
+            android:layout_marginTop="@dimen/dimen_10dp" android:layout_marginStart="50dp"
+            tools:layout_editor_absoluteY="413dp" tools:layout_editor_absoluteX="110dp"
+            android:layout_width="300dp" android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/add_item_price"
+            android:text="@string/item_price"
+            android:textColor="@color/white"
+            android:layout_below="@id/add_item_nameInput"
+            android:layout_marginTop="15dp" android:layout_marginStart="100dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/add_item_priceInput"
+            android:background="@drawable/edit_bg"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:layout_below="@id/add_item_price"
+            android:layout_marginTop="@dimen/dimen_10dp" android:layout_marginStart="50dp"
+            tools:layout_editor_absoluteY="413dp" tools:layout_editor_absoluteX="110dp"
+            android:layout_width="300dp" android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/item_location_text"
+            android:text="@string/item_location"
+            android:textColor="@color/white"
+            android:layout_below="@id/add_item_priceInput"
+            android:layout_marginTop="15dp" android:layout_marginStart="80dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/item_location"
+            android:text="@string/no_location_selected"
+            android:textColor="@color/white"
+            android:layout_below="@id/item_location_text"
+            android:layout_marginTop="5dp" android:layout_marginStart="80dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/add_item_location"
+            android:text="@string/add_item_location"
+            android:textColor="@color/white"
+            android:background="@drawable/select_button"
+            android:layout_below="@id/item_location"
+            android:layout_marginTop="15dp" android:layout_marginStart="70dp"
+            android:layout_width="150dp" android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/add_item"
+            android:text="@string/add_item"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_item_location"
+            android:background="@drawable/confirm_button"
+            android:textColor="@color/black"
+            android:layout_marginTop="65dp" android:layout_marginStart="50dp"/>
+
+    <Button
+            android:id="@+id/cancel_add_item"
+            android:text="@string/cancel_add_item"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_item"
+            android:background="@drawable/cancel_button"
+            android:layout_marginTop="10dp" android:layout_marginStart="50dp"/>
+
+</RelativeLayout>

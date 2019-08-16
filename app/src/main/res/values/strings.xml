@@ -1,0 +1,38 @@
+<resources>
+    <string name="android_api_key">AIzaSyB1opxqzdy2pAec2ugaCxXeeZgJ5cblF1c</string>
+
+    <string name="app_name">iTrack</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="new_user">New to iTrack? Click here!</string>
+    <string name="password_not_match">Password does not match!</string>
+
+    <string name="title_activity_scanned_barcode">ScannedBarcodeActivity</string>
+    <string name="logout">Log Out</string>
+
+    <string name="title_activity_add_item">AddItem</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_price">Item Price</string>
+    <string name="item_location">Location:</string>
+    <string name="no_location_selected">No location selected</string>
+    <string name="add_item_location">Select Location</string>
+    <string name="add_item">Add</string>
+    <string name="cancel_add_item">Cancel</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="action_geolocate">Locate Yourself</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="add_new_item_info">Add New</string>
+
+    <string name="shopping_list">Your Shopping List</string>
+    <string name="subtotal">Subtotal: RM</string>
+    <string name="zero">0.00</string>
+</resources>
+

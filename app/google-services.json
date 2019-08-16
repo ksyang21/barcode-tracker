@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "529177728575",
+    "firebase_url": "https://barcode-tracker-79cc4.firebaseio.com",
+    "project_id": "barcode-tracker-79cc4",
+    "storage_bucket": "barcode-tracker-79cc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529177728575:android:2fdd1e911cd7ffaa",
+        "android_client_info": {
+          "package_name": "com.example.barcodetracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1opxqzdy2pAec2ugaCxXeeZgJ5cblF1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529177728575-i8a881h6na6hi4q2dpqah1jom8f461nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
